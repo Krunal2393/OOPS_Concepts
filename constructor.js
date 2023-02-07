@@ -3,6 +3,8 @@ function BankAccount (customerName, balance = 0) {
   this.accountNumber = Date.now()
   this.balance = balance
   // HAHAHHA
+  // HAHAHHA
+  // HAHAHHA
 
   // this.deposit = function (amount) {
   //     this.balance += amount;
