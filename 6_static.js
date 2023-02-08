@@ -8,35 +8,35 @@
 
 // // Increment
 class User {
-  // static id = 1;
-  static cache = {
-      1: 'some value',
-  };
+    // static id = 1;
+    static cache = {
+        1: 'some value',
+    };
 
-  constructor(name, age, income) {
-      this.name = name;
-      this.age = age;
-      this.income = income;
-      this.id = User.id++;
-  }
+    constructor(name, age, income) {
+        this.name = name;
+        this.age = age;
+        this.income = income;
+        this.id = User.id++;
+    }
 
-  // checkCache() {}
+    // checkCache() {}
 
-  static {
-      console.log('Initialized');
-  }
+    static {
+        console.log('Initialized');
+    }
 
-  static hasInCache() {
-      console.log(User.cache);
-  }
+    static hasInCache() {
+        console.log(User.cache);
+    }
 
-  // static compareByAge(user1, user2) {
-  //     return user1.age - user2.age;
-  // }
+    // static compareByAge(user1, user2) {
+    //     return user1.age - user2.age;
+    // }
 
-  // static compareByIncome(user1, user2) {
-  //     return user1.income - user2.income;
-  // }
+    // static compareByIncome(user1, user2) {
+    //     return user1.income - user2.income;
+    // }
 }
 
 // User.hasInCache();
